@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <title>Simons Webpage</title>
+</head>
+<body class = "index">
+    <div class="wrapper">
+        <div class="Header">
+            <nav class="navbar">
+                <a class="brand" href="index.html">Simon Oksen | </a>
+                <ul>
+                  <li>
+                    <a href="Projekter.html">Projekter</a>
+                  </li>
+                  <li>
+                    <a href="CV.html">CV</a>
+                  </li>
+                  <li> 
+                    <a href="OmMig.html">Om mig</a>
+                  </li>
+                  <li>
+                    <a href="Skoleforløb.html">Skoleforløb</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div class="mid-section">
+          <h1>Jeg <span class="auto-type"></span></h1>
+        </div>
+
+        <div class="blogpost-container">
+          <h3 class="blogpost-title">blogpost</h3>
+          <p class="blotpost-para">17/10/2022 - Nu starter jeg mit andet skolepraktikforløb (P2), og vil være på TEC Ballerup de næste 6 måneder.<br><br></p>
+          <p>14/10/2022 - Jeg har netop afsluttet mit første skoleforløb (H1) på TEC Ballerup.<br><br></p>
+          <p>08/08/2022 - I dag starter jeg på mit første skoleforløb (H1).<br><br></p>
+          <p>29/07/2022 - Jeg har netop fået sommerferie og dermed afsluttede mit første praktikforløb (P1) hos TEC i Hvidovre.<br><br></p>
+          <p>24/01/2022 - I dag starter jeg på mit første praktikforløb hos TEC Hvidovre.<br><br></p>
+          <p>24/11/2021 - Jeg har nu afsluttet grundforløb 2, og er klar til at starte på Datatekniker med speciale i programmering udannelsen!</p>
+          
+        </div>
+
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <a href="https://github.com/mattboldt/typed.js/"></a>
+            <img src="pictures/git.png" style="width:100%">
+            <div class="text">Min Github</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="pictures/R.png" style="width:100%">
+            <div class="text">Min LinkedIn</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="pictures/placeholder.jpg" style="width:100%">
+            <div class="text">Ved jeg ikke</div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          
+          <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+        <div class="footer">
+            <p>Mail: Oksen.04@hotmail.com  |  Telefon: +45 31 33 29 92</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["sover.", "spiser.", "koder."],
+          typeSpeed: 150,
+          backSpeed: 150,
+          loop: true
+        })
+    </script>
+
+</body>
+</html>
