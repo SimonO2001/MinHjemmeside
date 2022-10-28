@@ -302,3 +302,63 @@ img {vertical-align: middle;}
   font-family: Verdana, sans-serif;
   margin: 0;
 }
+
+.OmJeg {
+  background-color: #272727;
+  background-image:url('pictures/background4.jpg');
+  margin: 0px;
+  background-repeat: no-repeat;
+  
+}
+
+.navbar .brandO {
+  /*Let's make the anchor display block.
+     This will ensure when we get the full width of the container.
+  */
+  display: block;
+  color: #bbc0ac;
+ /* Remove padding from top/bottom and add 24px padding right/left */
+  padding: 0 24px;
+  font-size: 24px;
+  
+}
+
+.auto-typeO {
+  color: #bbc0ac;
+
+}
+
+.bodyO {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.Skole {
+  background-color: #272727;
+  background-image:url('pictures/BACKGROUND5.jpg');
+  margin: 0px;
+  background-repeat: no-repeat;
+  
+}
+
+.navbar .brandS {
+  /*Let's make the anchor display block.
+     This will ensure when we get the full width of the container.
+  */
+  display: block;
+  color: #00b7ff;
+ /* Remove padding from top/bottom and add 24px padding right/left */
+  padding: 0 24px;
+  font-size: 24px;
+  
+}
+
+.auto-typeS {
+  color: #00b7ff;
+
+}
+
+.bodyS {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
