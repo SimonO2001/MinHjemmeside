@@ -333,6 +333,31 @@ img {vertical-align: middle;}
   margin: 0;
 }
 
+.blogpost-containerO {
+  margin-left: 120px;
+  margin-top: 15px;
+  margin-right: 120px;
+  background-color: #272727;
+  opacity: 0.9;
+  color: white;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 400px;
+  display: block;
+  
+  
+}
+
+.blogpost-titleO{
+color: #bbc0ac;
+text-align: center;
+display: flex;
+justify-content: center;
+
+
+}
+
 .Skole {
   background-color: #272727;
   background-image:url('pictures/BACKGROUND5.jpg');
@@ -388,6 +413,6 @@ img {vertical-align: middle;}
 
 .Karakter {
   width: 100%;
-  height: 500px;
+  height: 800px;
 
 }
