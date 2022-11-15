@@ -343,8 +343,11 @@ img {vertical-align: middle;}
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 400px;
-  display: block;
+  padding-bottom: 30px;
+  margin-bottom: 75px;
+  
+  
+  
   
   
 }
@@ -352,10 +355,24 @@ img {vertical-align: middle;}
 .blogpost-titleO{
 color: #bbc0ac;
 text-align: center;
-display: flex;
-justify-content: center;
+vertical-align: top;
+}
 
+.Blogpost-picture{
+  height: 500px;
+  width: 250px;
+  
+  
+}
 
+.Biografi{
+  display: flex;
+  
+}
+
+.blogpost-txt{
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .Skole {
