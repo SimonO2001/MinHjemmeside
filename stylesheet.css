@@ -303,6 +303,31 @@ img {vertical-align: middle;}
   margin: 0;
 }
 
+.blogpost-containerC {
+  margin-left: 120px;
+  margin-top: 15px;
+  margin-right: 120px;
+  background-color: #272727;
+  opacity: 0.9;
+  color: white;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 75px;
+  
+  
+  
+  
+  
+}
+
+.blogpost-titleC{
+color: #409498;
+text-align: center;
+vertical-align: top;
+}
+
 .OmJeg {
   background-color: #272727;
   background-image:url('pictures/background4.jpg');
@@ -415,8 +440,9 @@ vertical-align: top;
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 400px;
+    padding-bottom: 50px;
     display: block;
+    margin-bottom: 75px;
     
     
 }
